@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # === Переменные окружения ===
-TOKEN = os.getenv[]           # токен бота от BotFather
+TOKEN = os.getenv[BOT_TOKEN]           # токен бота от BotFather
 APP_URL = os.getenv["https://fuel-bot-jsek.onrender.com"]           # публичный URL сервиса (напр. https://fuel-bot.onrender.com)
 
 # === FastAPI-приложение и Telegram Application ===
