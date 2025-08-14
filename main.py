@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 # === Переменные окружения ===
 TOKEN = os.environ["8212886572:AAEFoF7TJq8265YWx8JiQ8WAONSizMwUKs0"]           # токен бота от BotFather
-APP_URL = os.environ["APP_URL"]           # публичный URL сервиса (напр. https://fuel-bot.onrender.com)
+APP_URL = os.environ["https://fuel-bot-jsek.onrender.com"]           # публичный URL сервиса (напр. https://fuel-bot.onrender.com)
 
 # === FastAPI-приложение и Telegram Application ===
 app = FastAPI()
